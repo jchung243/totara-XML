@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$system$/TEST</text>
+    </category>
+  </question>
+
+<!-- question: 1498  -->
+  <question type="multichoice">
+    <name>
+      <text>Which of the following are characteristics of a digital leader? (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are characteristics of a digital leader?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>Implements strong analytics and business insights<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>Uses technology as a competitive advantage<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>Makes strong investments in innovation</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>Uses DevOps and Agile methodologies<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>Embraces fast innovation and failure<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
