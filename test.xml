@@ -2,7 +2,7 @@
 <quiz>
   <question type="category">
     <category>
-      <text>$system$/TEST</text>
+      <text>$system$/JOSH TEST</text>
     </category>
   </question>
   <question type="multichoice">
@@ -34,6 +34,18 @@
 
 </text>
     </incorrectfeedback>
+    <answer fraction="-50.0">
+      <text>Programming for nanocomputing</text>
+    </answer>
+    <answer fraction="50.0">
+      <text>* An architecture and an approach to writing software</text>
+    </answer>
+    <answer fraction="50.0">
+      <text>* A service that implements a single discrete function</text>
+    </answer>
+    <answer fraction="-50.0">
+      <text>Services tailored to small businesses</text>
+    </answer>
   </question>
   <question type="multichoice">
     <name>
@@ -64,6 +76,18 @@
 
 </text>
     </incorrectfeedback>
+    <answer fraction="0">
+      <text>Microservices are exclusively designed for lightweight applications</text>
+    </answer>
+    <answer fraction="100">
+      <text>* Microservices applications consist of many microservices wired together rather than built as one single program</text>
+    </answer>
+    <answer fraction="0">
+      <text>With Microservices, due to their distributed deployment, testing can become streamlined and easier</text>
+    </answer>
+    <answer fraction="0">
+      <text>With a traditional, monolithic approach, applications are broken down into their smallest components</text>
+    </answer>
   </question>
   <question type="multichoice">
     <name>
@@ -94,6 +118,18 @@
 
 </text>
     </incorrectfeedback>
+    <answer fraction="50.0">
+      <text>* Makes applications easier to build, test, deploy, and update</text>
+    </answer>
+    <answer fraction="-50.0">
+      <text>Simple to refactor legacy applications into microservices</text>
+    </answer>
+    <answer fraction="50.0">
+      <text>* Higher resilience since each function or service can be built and deployed independently </text>
+    </answer>
+    <answer fraction="-50.0">
+      <text>The adoption of microservices always reduces complexity</text>
+    </answer>
   </question>
   <question type="multichoice">
     <name>
@@ -124,6 +160,18 @@
 
 </text>
     </incorrectfeedback>
+    <answer fraction="50.0">
+      <text>* Organizational and cultural changes</text>
+    </answer>
+    <answer fraction="50.0">
+      <text>* Potential for increased complexity</text>
+    </answer>
+    <answer fraction="-50.0">
+      <text>Microservices are not conducive to an open source architecture</text>
+    </answer>
+    <answer fraction="-50.0">
+      <text>A microservices architecture is not scalable</text>
+    </answer>
   </question>
   <question type="multichoice">
     <name>
@@ -154,6 +202,15 @@
 
 </text>
     </incorrectfeedback>
+    <answer fraction="0">
+      <text>Improved</text>
+    </answer>
+    <answer fraction="100">
+      <text>* Negated</text>
+    </answer>
+    <answer fraction="0">
+      <text>This is a trick question--there is no right answer</text>
+    </answer>
   </question>
   <question type="multichoice">
     <name>
@@ -184,6 +241,18 @@
 
 </text>
     </incorrectfeedback>
+    <answer fraction="100.0">
+      <text>* Break monolithic apps into microservices</text>
+    </answer>
+    <answer fraction="100.0">
+      <text>* Manage microservices</text>
+    </answer>
+    <answer fraction="100.0">
+      <text>* Orchestrate microservices</text>
+    </answer>
+    <answer fraction="100.0">
+      <text>* Handle the data that microservices create</text>
+    </answer>
   </question>
   <question type="multichoice">
     <name>
@@ -214,6 +283,18 @@
 
 </text>
     </incorrectfeedback>
+    <answer fraction="0">
+      <text>Red Hat OpenShift Container Platform, Red Hat OpenStack Platform, Red Hat Ansible Automation, and Red Hat Open Innovation Labs</text>
+    </answer>
+    <answer fraction="0">
+      <text>Red Hat OpenShift Container Platform, Red Hat Fuse, Red Hat Middleware Core Services Collection, and Red Hat Ansible Automation</text>
+    </answer>
+    <answer fraction="0">
+      <text>Red Hat OpenShift Container Platform, Red Hat OpenStack Platform, Red Hat Fuse, and Red Hat Middleware Core Services Collection</text>
+    </answer>
+    <answer fraction="100">
+      <text>* Red Hat OpenShift Container Platform, Red Hat Fuse, Red Hat Middleware Core Services Collection, and Red Hat Open Innovation Labs</text>
+    </answer>
   </question>
   <question type="multichoice">
     <name>
@@ -244,6 +325,18 @@
 
 </text>
     </incorrectfeedback>
+    <answer fraction="0">
+      <text>Microservices</text>
+    </answer>
+    <answer fraction="100">
+      <text>* Agile integration</text>
+    </answer>
+    <answer fraction="0">
+      <text>Digital transformation</text>
+    </answer>
+    <answer fraction="0">
+      <text>API management</text>
+    </answer>
   </question>
   <question type="multichoice">
     <name>
@@ -274,6 +367,18 @@
 
 </text>
     </incorrectfeedback>
+    <answer fraction="100">
+      <text>* Linux containers</text>
+    </answer>
+    <answer fraction="0">
+      <text>APIs</text>
+    </answer>
+    <answer fraction="0">
+      <text>Service mesh</text>
+    </answer>
+    <answer fraction="0">
+      <text>Virtual machines</text>
+    </answer>
   </question>
   <question type="multichoice">
     <name>
@@ -300,5 +405,17 @@
     <incorrectfeedback>
       <text> Your answer is incorrect. Review the Technology Topic: Microservices course.</text>
     </incorrectfeedback>
+    <answer fraction="0">
+      <text>Red Hat 3Scale API Management</text>
+    </answer>
+    <answer fraction="0">
+      <text>Red Hat OpenShift Container Platform</text>
+    </answer>
+    <answer fraction="0">
+      <text>Red Hat Enterprise Linux</text>
+    </answer>
+    <answer fraction="100">
+      <text>* Red Hat Fuse</text>
+    </answer>
   </question>
 </quiz>
