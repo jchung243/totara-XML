@@ -7,10 +7,10 @@
   </question>
   <question type="multichoice">
     <name>
-      <text>Which of the following are characteristics of a digital leader? (1)</text>
+      <text> Which TWO of the following BEST describes microservices?(1)</text>
     </name>
     <questiontext>
-      <text>Which of the following are characteristics of a digital leader?</text>
+      <text> Which TWO of the following BEST describes microservices?</text>
     </questiontext>
     <generalfeedback>
       <text />
@@ -22,28 +22,283 @@
     <shuffleanswers>true</shuffleanswers>
     <answernmbering>abc</answernmbering>
     <correctfeedback>
-      <text>Your answer is correct.</text>
+      <text> Your answer is correct.</text>
     </correctfeedback>
     <partiallycorrectfeedback>
       <text>Your answer is partially correct.</text>
     </partiallycorrectfeedback>
     <incorrectfeedback>
-      <text>Your answer is incorrect.</text>
+      <text> Your answer is incorrect. Review the Technology Topic: Microservices course.
+
+
+
+</text>
     </incorrectfeedback>
-    <answer fraction="-33.33333">
-      <text>Implements strong analytics and business insights</text>
-    </answer>
-    <answer fraction="33.33333">
-      <text>Uses technology as a competitive advantage</text>
-    </answer>
-    <answer fraction="33.33333">
-      <text>Makes strong investments in innovation</text>
-    </answer>
-    <answer fraction="-33.33333">
-      <text>Uses DevOps and Agile methodologies</text>
-    </answer>
-    <answer fraction="33.33333">
-      <text>Embraces fast innovation and failure</text>
-    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>  What is the difference between microservices versus traditional, monolithic approaches to applications?(2)</text>
+    </name>
+    <questiontext>
+      <text>  What is the difference between microservices versus traditional, monolithic approaches to applications?</text>
+    </questiontext>
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernmbering>abc</answernmbering>
+    <correctfeedback>
+      <text> Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text> Your answer is incorrect. Review the Technology Topic: Microservices course.
+
+
+
+</text>
+    </incorrectfeedback>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text> Which TWO of the following are customer benefits of a microservices-based architecture?(3)</text>
+    </name>
+    <questiontext>
+      <text> Which TWO of the following are customer benefits of a microservices-based architecture?</text>
+    </questiontext>
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernmbering>abc</answernmbering>
+    <correctfeedback>
+      <text> Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text> Your answer is incorrect. Review the Technology Topic: Microservices course.
+
+
+
+</text>
+    </incorrectfeedback>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text> What TWO of the following are potential challenges of using microservices?(4)</text>
+    </name>
+    <questiontext>
+      <text> What TWO of the following are potential challenges of using microservices?</text>
+    </questiontext>
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernmbering>abc</answernmbering>
+    <correctfeedback>
+      <text> Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text> Your answer is incorrect. Review the Technology Topic: Microservices course.
+
+
+
+</text>
+    </incorrectfeedback>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text> If an organization’s architecture is distributed, but their integration still relies on a centralized team managing a centralized technology like an enterprise service bus (ESB), the business goals of microservices can be:(5)</text>
+    </name>
+    <questiontext>
+      <text> If an organization’s architecture is distributed, but their integration still relies on a centralized team managing a centralized technology like an enterprise service bus (ESB), the business goals of microservices can be:</text>
+    </questiontext>
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernmbering>abc</answernmbering>
+    <correctfeedback>
+      <text> Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text> Your answer is incorrect. Review the Technology Topic: Microservices course.
+
+
+
+</text>
+    </incorrectfeedback>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text> Which of the following can Red Hat help organizations do? Select all that apply.(6)</text>
+    </name>
+    <questiontext>
+      <text> Which of the following can Red Hat help organizations do? Select all that apply.</text>
+    </questiontext>
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernmbering>abc</answernmbering>
+    <correctfeedback>
+      <text> Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text> Your answer is incorrect. Review the Technology Topic: Microservices course.
+
+
+
+</text>
+    </incorrectfeedback>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text> What Red Hat offerings are most typically associated with using microservices?(7)</text>
+    </name>
+    <questiontext>
+      <text> What Red Hat offerings are most typically associated with using microservices?</text>
+    </questiontext>
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernmbering>abc</answernmbering>
+    <correctfeedback>
+      <text> Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text> Your answer is incorrect. Review the Technology Topic: Microservices course.
+
+
+
+</text>
+    </incorrectfeedback>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text> What does Red Hat call an approach to connecting resources that combines integration technologies, agile delivery techniques, and cloud-native platforms to improve the speed and security of software delivery?(8)</text>
+    </name>
+    <questiontext>
+      <text> What does Red Hat call an approach to connecting resources that combines integration technologies, agile delivery techniques, and cloud-native platforms to improve the speed and security of software delivery?</text>
+    </questiontext>
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernmbering>abc</answernmbering>
+    <correctfeedback>
+      <text> Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text> Your answer is incorrect. Review the Technology Topic: Microservices course.
+
+
+
+</text>
+    </incorrectfeedback>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text> What is the ideal application deployment unit and self-contained execution environment for a microservice?(9)</text>
+    </name>
+    <questiontext>
+      <text> What is the ideal application deployment unit and self-contained execution environment for a microservice?</text>
+    </questiontext>
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernmbering>abc</answernmbering>
+    <correctfeedback>
+      <text> Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text> Your answer is incorrect. Review the Technology Topic: Microservices course.
+
+
+
+</text>
+    </incorrectfeedback>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text> What Red Hat offering integrates microservice-based apps, data, services, and devices with a robust, flexible, and easy-to-use platform?(10)</text>
+    </name>
+    <questiontext>
+      <text> What Red Hat offering integrates microservice-based apps, data, services, and devices with a robust, flexible, and easy-to-use platform?</text>
+    </questiontext>
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernmbering>abc</answernmbering>
+    <correctfeedback>
+      <text> Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text> Your answer is incorrect. Review the Technology Topic: Microservices course.</text>
+    </incorrectfeedback>
   </question>
 </quiz>
