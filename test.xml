@@ -1,7 +1,49 @@
 <?xml version='1.0' encoding='utf-8'?>
 <quiz>
-  <question>
-    <field1 name="blah">some value1</field1>
-    <field2 name="asdfasd">some value2</field2>
+  <question type="category">
+    <category>
+      <text>$system$/TEST</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which of the following are characteristics of a digital leader? (1)</text>
+    </name>
+    <questiontext>
+      <text>Which of the following are characteristics of a digital leader?</text>
+    </questiontext>
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernmbering>abc</answernmbering>
+    <correctfeedback>
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <answer fraction="-33.33333">
+      <text>Implements strong analytics and business insights</text>
+    </answer>
+    <answer fraction="33.33333">
+      <text>Uses technology as a competitive advantage</text>
+    </answer>
+    <answer fraction="33.33333">
+      <text>Makes strong investments in innovation</text>
+    </answer>
+    <answer fraction="-33.33333">
+      <text>Uses DevOps and Agile methodologies</text>
+    </answer>
+    <answer fraction="33.33333">
+      <text>Embraces fast innovation and failure</text>
+    </answer>
   </question>
 </quiz>
