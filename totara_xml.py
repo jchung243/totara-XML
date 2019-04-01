@@ -106,15 +106,6 @@ for i in questions:
         incorrectfeedback = etree.SubElement(question, "incorrectfeedback")
         etree.SubElement(incorrectfeedback, "text").text = incorrect
         
-#         #answers
-#         for a in answers:
-#             frac = len(corr_ans)/len(answers)
-#             if a in corr_ans:
-#                 answer = etree.SubElement(question, "answer", fraction="10")
-#                 etree.SubElement(answer, "text").text = a
-#             else:
-#                 answer = etree.SubElement(question, "answer", fraction="10")
-#                 etree.SubElement(answer, "text").text = a
         #answers
         for a in answers:
             frac = str((len(corr_ans)/len(answers))*100)
