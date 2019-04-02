@@ -1,10 +1,15 @@
 # dependancies
 import docx2txt
 import xml.etree.ElementTree as etree
-
+import sys
 
 # import document
-fulltext = docx2txt.process("test.docx")
+try: 
+    File = sys.argv[1]
+    fulltext = docx2txt.process("File") 
+except:
+    print('File was unable to be imported.')
+    sys.exit(1)
 
 # split document into questions list
 assessment = fulltext.split("ASSESSMENT QUESTIONS")
