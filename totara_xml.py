@@ -8,6 +8,8 @@ fulltext = docx2txt.process("test.docx")
 
 # split document into questions list
 assessment = fulltext.split("ASSESSMENT QUESTIONS")
+category = assessment[0].split("REVIEWERS:")
+category_name = category[0].rstrip()
 questions = assessment[1].split("#")
 
 # def xml indent formating
@@ -50,7 +52,6 @@ quiz = etree.Element("quiz")
 # add lms category
 question = etree.SubElement(quiz, "question", type="category")
 category = etree.SubElement(question, "category")
-category_name = input('Category Name? ')
 etree.SubElement(category, "text").text = "$system$/"+category_name
 
 # iterate through questions

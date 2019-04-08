@@ -2,7 +2,7 @@
 <quiz>
   <question type="category">
     <category>
-      <text>$system$/JOSH TEST</text>
+      <text>$system$/TECHNOLOGY TOPIC: MICROSERVICES ASSESSMENT</text>
     </category>
   </question>
   <question type="multichoice">
