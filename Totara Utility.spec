@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['totara.py'],
+a = Analysis(['Totara Utility.py'],
              pathex=['/Users/jchung/Playground/totara-XML'],
              binaries=[],
              datas=[],
@@ -21,7 +21,7 @@ exe = EXE(pyz,
           a.scripts,
           [],
           exclude_binaries=True,
-          name='totara',
+          name='Totara Utility',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
@@ -33,4 +33,4 @@ coll = COLLECT(exe,
                a.datas,
                strip=False,
                upx=True,
-               name='totara')
+               name='Totara Utility')
