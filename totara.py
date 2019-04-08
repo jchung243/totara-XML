@@ -1,10 +1,12 @@
 # dependancies
 import docx2txt
 import xml.etree.ElementTree as etree
-
+import PySimpleGUI as sg
+import os
 
 # import document
-fulltext = docx2txt.process("test.docx")
+file_path = sg.PopupGetFile('Select file to process:')
+fulltext = docx2txt.process(file_path)
 
 # split document into questions list
 assessment = fulltext.split("ASSESSMENT QUESTIONS")
@@ -129,4 +131,5 @@ for i in questions:
 # call formatter, export to file
 xml = etree.ElementTree(quiz)
 indent(quiz)
-xml.write("test.xml", encoding='utf-8', xml_declaration=True) # ENCODING MUST BE UTF-8, DECLARATION MUST BE TRUE
+output_path = os.path.expanduser(f"~/Desktop/{category_name}.xml")
+xml.write(output_path, encoding='utf-8', xml_declaration=True) # ENCODING MUST BE UTF-8, DECLARATION MUST BE TRUE
