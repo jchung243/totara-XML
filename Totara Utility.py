@@ -116,16 +116,19 @@ for i in questions:
             if len(corr_ans) == 1:
                 if a in corr_ans:
                     answer = etree.SubElement(question, "answer", fraction="100")
-                    etree.SubElement(answer, "text").text = a
+                    ans_text = a.split("* ")
+                    etree.SubElement(answer, "text").text = ans_text[1]
                 else:
                     answer = etree.SubElement(question, "answer", fraction="0")
                     etree.SubElement(answer, "text").text = a
             else:
                 if a in corr_ans:
                     answer = etree.SubElement(question, "answer", fraction=frac)
-                    etree.SubElement(answer, "text").text = a
+                    ans_text = a.split("* ")
+                    etree.SubElement(answer, "text").text = ans_text[1]
                 else:
-                    answer = etree.SubElement(question, "answer", fraction="-"+frac)
+                    # answer = etree.SubElement(question, "answer", fraction="-"+frac)
+                    answer = etree.SubElement(question, "answer", fraction="0")
                     etree.SubElement(answer, "text").text = a
         
 # call formatter, export to file
